@@ -31,6 +31,7 @@ h3{
 .deconnexion{
     padding: 5px 10px;
     border: none;
+    text-decoration: none;
     background: transparent;
     color: red;
     transition: ease 0.5s;
