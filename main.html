@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="left-ctnr">
+            <h3>Bug Tracker</h3>
+            <p>8 résolus, 2 en cours, 1 en attente</p>
+        </div>
+        <div class="right-tnr">
+            <button class="btn-complete">Liste Complète</button>
+            <button class="btn-traiter">A Traiter</button>
+            <a href="" class="btn-add">Ajouter</a>
+            <button class="deconnexion">Déconnexion</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="main-ctnr">
+                <div class="title-ctnr">
+                    <div class="designation"><p>Designation</p></div>
+                    <div class="date"><p>Date</p></div>
+                    <div class="nom"><p>Nom</p></div>
+                    <div class="etat"><p>Etat</p></div>
+                    <div class="supprimer"></div>
+                </div>
+
+                <div class="info-bug">
+                    <div class="designationbug">
+                        <h4>Nom du bug</h4>
+                        <p>description</p>
+                    </div>
+                    <div class="datebug"><p>date</p></div>
+                    <div class="nombug"><p>Développeur</p></div>
+                    <div class="etatbug">
+                        <select name="etat" class="select-etat">
+                            <option value="bug">Bug</option>
+                            <option value="encours">En cours</option>
+                            <option value="traite">Traité</option>
+                        </select>
+                    </div>
+                    <div class="supprimer-bug">
+                        <button class="supprimer-btn">SUPPRIMER</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,6 +1,8 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: sans-serif;
+    overflow-y: hidden;
 }
 
 main{
@@ -38,7 +40,6 @@ input{
 }
 
 button{
-    padding: 5px 10px;
     margin: 10px 0px;
     transition: ease 0.5s;
 }
@@ -48,14 +49,29 @@ button:hover{
     transform: scale(1.1);
 }
 
-a{
+.a-btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 5px 10px;
+    margin: 5px auto;
+    text-align: center;
+    transition: ease 0.5s;
+}
+
+.a-btn:hover{
+    transition: ease 0.5s;
+    transform: scale(1.1);
+}
+
+.a-bottom{
     margin: 5px 0px;
     text-decoration: none;
     color: black;
     transition: ease 0.5s;
 }
 
-a:hover{
+.a-bottom:hover{
     color: blue;
     transition: ease 0.5s;
 }
