@@ -49,7 +49,7 @@ button:hover{
     transform: scale(1.1);
 }
 
-.a-btn{
+.submit-btn{
     text-decoration: none;
     color: black;
     border: 1px solid;
